@@ -19,4 +19,4 @@ The goal of this project is to build a complete analytics solution using SQL, Py
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/techno-events-analytics.git
+   git clone https://github.com/ayala-zh/techno-events-analytics
