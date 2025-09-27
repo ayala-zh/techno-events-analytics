@@ -76,7 +76,6 @@ even if new data is added to the database.
    git clone (https://github.com/ayala-zh/techno-events-analytics)
    cd techno-events-analytics
 2. **Install dependencies**
-
 Make sure you have Python 3.8+ installed, then install the required packages with:
 
 pip install -r requirements.txt
@@ -87,6 +86,7 @@ Create and populate the database
 CREATE DATABASE techno_events_db;
 \c techno_events_db
 \i queries.sql
+
 4. **Configure Project**
    - Open `main.py`
    - Update your database password if needed:
@@ -100,5 +100,5 @@ CREATE DATABASE techno_events_db;
      ```
 5. **Run Script**
    ```bash
-python Main.py
+   python Main.py
 
