@@ -13,8 +13,8 @@ Our "company," **RavePulse**, is a data-driven platform for techno music enthusi
 The goal of this project is to build a complete analytics solution using SQL, Python, and Apache Superset to visualize trends and help event organizers plan better events.
 
 ## 🖼️ Screenshot
-*(Placeholder – will add a dashboard screenshot later)*  
-![Dashboard Placeholder](images/dashboard.png)
+<img width="1850" height="1415" alt="image" src="https://github.com/user-attachments/assets/d3cd2a1f-a38d-4099-acbb-630bc16e5976" />
+
 
 ## 🚀 How to Run the Project
 1. Clone the repository:
