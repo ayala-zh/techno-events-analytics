@@ -73,5 +73,27 @@ even if new data is added to the database.
 
 1. **Clone this repository:**
    ```bash
-   git clone [https://github.com/yourusername/ravepulse-analytics.git](https://github.com/ayala-zh/techno-events-analytics)
-   cd ravepulse-analytics
+   git clone (https://github.com/ayala-zh/techno-events-analytics)
+   cd techno-events-analytics
+2. **Set up the database**
+# Open psql
+psql -U postgres
+# Create and populate the database
+CREATE DATABASE techno_events_db;
+\c techno_events_db
+\i queries.sql
+3. **Configure Project**
+   - Open `main.py`
+   - Update your database password if needed:
+     ```python
+     conn = psycopg2.connect(
+         host="localhost",
+         user="postgres",
+         password="your_password",
+         dbname="techno_events_db"
+     )
+     ```
+4. **Run Script**
+   ```bash
+python Main.py
+
