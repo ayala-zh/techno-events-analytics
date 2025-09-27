@@ -77,17 +77,19 @@ even if new data is added to the database.
    cd techno-events-analytics
 2. **Install dependencies**
 Make sure you have Python 3.8+ installed, then install the required packages with:
+   ```bash
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
 3. **Set up the database**
 Open psql
-psql -U postgres
+   ```bash
+   psql -U postgres
 Create and populate the database
 CREATE DATABASE techno_events_db;
 \c techno_events_db
 \i queries.sql
 
-4. **Configure Project**
+5. **Configure Project**
    - Open `main.py`
    - Update your database password if needed:
      ```python
@@ -98,7 +100,7 @@ CREATE DATABASE techno_events_db;
          dbname="techno_events_db"
      )
      ```
-5. **Run Script**
+6. **Run Script**
    ```bash
    python Main.py
 
