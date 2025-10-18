@@ -1,0 +1,69 @@
+table_name: scatter
+main_dttm_col: date
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: techno_events_db
+schema: public
+sql: "SELECT \r\n    e.date,\r\n    eh.rate,\r\n    CASE \r\n        WHEN eh.has_attended\
+  \ = true THEN 'Attended'\r\n        ELSE 'Did not attend'\r\n    END AS attendance_status\r\
+  \nFROM eventhistory eh\r\nJOIN events e ON eh.event_id = e.id\r\nWHERE eh.rate IS\
+  \ NOT NULL\r\nORDER BY e.date"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: f9c3043e-4a13-4a37-87ef-b014a7e513c6
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: date
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATETIME
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: rate
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: attendance_status
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: b5ddb5c1-f17d-4c0d-bc5b-abe3213e730c

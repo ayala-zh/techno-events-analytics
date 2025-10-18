@@ -1,0 +1,26 @@
+slice_name: Histogram - Ratings Distribution
+description: null
+certified_by: null
+certification_details: null
+viz_type: histogram_v2
+params:
+  datasource: 24__table
+  viz_type: histogram_v2
+  column: rating_count
+  groupby:
+  - rate
+  adhoc_filters: []
+  row_limit: 10
+  bins: 5
+  color_scheme: supersetColors
+  show_value: true
+  show_legend: true
+  x_axis_format: SMART_NUMBER
+  y_axis_format: SMART_NUMBER
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":24,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["rate","rating_count"],"annotation_layers":[],"row_limit":10,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"histogram","options":{"column":"rating_count","groupby":["rate"],"bins":5}}]}],"form_data":{"datasource":"24__table","viz_type":"histogram_v2","column":"rating_count","groupby":["rate"],"adhoc_filters":[],"row_limit":10,"bins":5,"color_scheme":"supersetColors","show_value":true,"show_legend":true,"x_axis_format":"SMART_NUMBER","y_axis_format":"SMART_NUMBER","extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: b835690a-ba3d-4bbc-a03f-7cfc59dcaa8b
+version: 1.0.0
+dataset_uuid: b01b2a61-592f-44b4-9cd7-67bb78cc0523

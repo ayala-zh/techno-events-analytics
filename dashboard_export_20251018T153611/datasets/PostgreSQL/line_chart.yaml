@@ -1,0 +1,60 @@
+table_name: line chart
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: techno_events_db
+schema: public
+sql: "SELECT \r\n    CASE EXTRACT(DOW FROM e.date)\r\n        WHEN 0 THEN 'Sunday'\r\
+  \n        WHEN 1 THEN 'Monday' \r\n        WHEN 2 THEN 'Tuesday'\r\n        WHEN\
+  \ 3 THEN 'Wednesday'\r\n        WHEN 4 THEN 'Thursday'\r\n        WHEN 5 THEN 'Friday'\r\
+  \n        WHEN 6 THEN 'Saturday'\r\n    END AS day_of_week,\r\n    COUNT(eh.id)\
+  \ FILTER (WHERE eh.has_attended = true) AS total_attendances\r\nFROM events e\r\n\
+  LEFT JOIN eventhistory eh ON eh.event_id = e.id\r\nGROUP BY EXTRACT(DOW FROM e.date)\r\
+  \nORDER BY EXTRACT(DOW FROM e.date)"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: bd2651fe-c48a-48c2-b7d9-41e295ff2d12
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: total_attendances
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: day_of_week
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: b5ddb5c1-f17d-4c0d-bc5b-abe3213e730c

@@ -1,0 +1,85 @@
+table_name: sunburst
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: techno_events_db
+schema: public
+sql: "SELECT \r\n    'All Users' AS level_1,\r\n    g.name AS level_2,\r\n    a.name\
+  \ AS level_3,\r\n    COUNT(*) AS user_count\r\nFROM favoriteartists fa\r\nJOIN users\
+  \ u ON fa.user_id = u.id\r\nJOIN artists a ON fa.artist_id = a.id\r\nJOIN genres\
+  \ g ON a.genre_id = g.id\r\nGROUP BY g.name, a.name\r\n\r\nUNION ALL\r\n\r\nSELECT\
+  \ \r\n    'All Users' AS level_1,\r\n    g.name AS level_2,\r\n    'Other Artists'\
+  \ AS level_3,\r\n    0 AS user_count\r\nFROM genres g\r\nWHERE g.id IN (SELECT DISTINCT\
+  \ genre_id FROM artists)\r\n\r\nUNION ALL\r\n\r\nSELECT \r\n    'All Users' AS level_1,\r\
+  \n    'Other Genres' AS level_2,\r\n    '' AS level_3,\r\n    0 AS user_count"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: a0c30f1d-645b-49da-8e0e-d333ae04cb02
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: level_1
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: level_2
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: level_3
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: user_count
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: b5ddb5c1-f17d-4c0d-bc5b-abe3213e730c

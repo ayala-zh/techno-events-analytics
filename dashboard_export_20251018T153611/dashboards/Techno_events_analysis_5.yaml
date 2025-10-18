@@ -1,0 +1,1097 @@
+dashboard_title: Techno events analysis
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 498d7e0f-37e5-4c1a-9ca9-6199c3785e00
+position:
+  CHART-2nl-mr7BtrMDfaKcZ7l4F:
+    children: []
+    id: CHART-2nl-mr7BtrMDfaKcZ7l4F
+    meta:
+      chartId: 23
+      height: 50
+      sliceName: Live Database vs CSV Backup - Events Record Growth
+      uuid: cb67fc8e-1300-4e73-9fb2-915641e47820
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-azmAMFLYXGv6yA8Dlbh12
+    type: CHART
+  CHART-8v9kiP4Yi5Wp4ieOhq-R1:
+    children: []
+    id: CHART-8v9kiP4Yi5Wp4ieOhq-R1
+    meta:
+      chartId: 13
+      height: 50
+      sliceName: Line Chart - Attendance by Day of Week
+      uuid: 3c90bfc1-9aee-435f-9331-b543c872ba62
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-a0y3aXiit8-fM32OFRJ0t
+    type: CHART
+  CHART-GOaGAleioH2bopDk56atq:
+    children: []
+    id: CHART-GOaGAleioH2bopDk56atq
+    meta:
+      chartId: 10
+      height: 50
+      sliceName: Favorite Genres Distribution
+      uuid: 18c87c05-9c41-4e8b-a492-9067c0551da3
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-GYXlLcpuBe7wbcdTHYKkQ
+    type: CHART
+  CHART-Hj55duUWnsVjBsTMzEAcl:
+    children: []
+    id: CHART-Hj55duUWnsVjBsTMzEAcl
+    meta:
+      chartId: 16
+      height: 50
+      sliceName: Histogram - Ratings Distribution
+      uuid: b835690a-ba3d-4bbc-a03f-7cfc59dcaa8b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-tv9Qn9TZ7g5t6fXSeIawx
+    type: CHART
+  CHART-KabqHRnN7Kw7yxrsT4CjG:
+    children: []
+    id: CHART-KabqHRnN7Kw7yxrsT4CjG
+    meta:
+      chartId: 4
+      height: 50
+      sliceName: Events per Genre
+      uuid: 56741014-0c3e-4e83-8d09-487ee11a0dc7
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW--yQXya4JBvB-STcbh9KEx
+    type: CHART
+  CHART-LGC7D0gx_EXAW5MS6zNgr:
+    children: []
+    id: CHART-LGC7D0gx_EXAW5MS6zNgr
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: Top Countries by Users Registrated
+      uuid: c2d243d9-c5fc-47f9-b170-1533502fca0d
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-GYXlLcpuBe7wbcdTHYKkQ
+    type: CHART
+  CHART-LpZxES2O1KKwXlLx-xa_x:
+    children: []
+    id: CHART-LpZxES2O1KKwXlLx-xa_x
+    meta:
+      chartId: 6
+      height: 50
+      sliceName: Average Event Rating by Genre
+      uuid: 52e5d75b-928f-4cf6-93bb-54c04573a2a2
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-M94RhHBL8sK2ktp3uO8AQ
+    type: CHART
+  CHART-Njq_EKL2pw08alwnbcAyV:
+    children: []
+    id: CHART-Njq_EKL2pw08alwnbcAyV
+    meta:
+      chartId: 21
+      height: 50
+      sliceName: Treemap - User Favorite Artists by Genre
+      uuid: e8d7eb26-8886-41ee-abf5-e71ba4faa329
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-azmAMFLYXGv6yA8Dlbh12
+    type: CHART
+  CHART-OFPaEy_H5PUS_xY4pJQqL:
+    children: []
+    id: CHART-OFPaEy_H5PUS_xY4pJQqL
+    meta:
+      chartId: 18
+      height: 50
+      sliceName: 'Geo Visualization '
+      uuid: 1a449453-3941-4251-b84f-b573ed99af1c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-kb6oOyAwYsATI8WQtJDim
+    type: CHART
+  CHART-RlWkKzQ4EyimuzOGPuvIy:
+    children: []
+    id: CHART-RlWkKzQ4EyimuzOGPuvIy
+    meta:
+      chartId: 19
+      height: 50
+      sliceName: 'Event Ratings Heatmap: Genre vs Location'
+      uuid: 13279258-15b4-48a0-9db3-7ee6f79c14a2
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-p3e-zfg1kbYjOxXSapMTF
+    type: CHART
+  CHART-XhhGW7PshEtq39I78Z5zs:
+    children: []
+    id: CHART-XhhGW7PshEtq39I78Z5zs
+    meta:
+      chartId: 17
+      height: 50
+      sliceName: Scatter Plot - Ratings Over Time
+      uuid: 3fb1f464-3947-4303-982b-f0240369cecf
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-p3e-zfg1kbYjOxXSapMTF
+    type: CHART
+  CHART-YHXUAzrMBSzhUebwSrxH-:
+    children: []
+    id: CHART-YHXUAzrMBSzhUebwSrxH-
+    meta:
+      chartId: 22
+      height: 50
+      sliceName: Word Cloud Most Popular Artist Names
+      uuid: f0308a1f-4545-476f-826f-5121d596654c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-azmAMFLYXGv6yA8Dlbh12
+    type: CHART
+  CHART-YzIYXy1nXtQRXmh7zO8qy:
+    children: []
+    id: CHART-YzIYXy1nXtQRXmh7zO8qy
+    meta:
+      chartId: 24
+      height: 50
+      sliceName: Normalized Ratings Distribution
+      uuid: 27e46784-837e-48a0-b10d-2ca17a37d2e0
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-kb6oOyAwYsATI8WQtJDim
+    type: CHART
+  CHART-ZCM8DWlcUtzPdXlFzLfwY:
+    children: []
+    id: CHART-ZCM8DWlcUtzPdXlFzLfwY
+    meta:
+      chartId: 15
+      height: 50
+      sliceName: Horizontal Bar Chart - Average Event Rating by Country
+      uuid: 59552266-5d54-4c0e-8594-3b5858bc002c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-tv9Qn9TZ7g5t6fXSeIawx
+    type: CHART
+  CHART-dS8evajr-u-D_dq1WeaqY:
+    children: []
+    id: CHART-dS8evajr-u-D_dq1WeaqY
+    meta:
+      chartId: 20
+      height: 50
+      sliceName: "User \u2192 Genre \u2192 Artist Hierarchy"
+      uuid: de8e3fcc-2e84-4ed4-9d9d-113fc59ebb95
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-p3e-zfg1kbYjOxXSapMTF
+    type: CHART
+  CHART-dlXItKlxU1V6mV3ihxqMj:
+    children: []
+    id: CHART-dlXItKlxU1V6mV3ihxqMj
+    meta:
+      chartId: 25
+      height: 50
+      sliceName: Rating Category Distribution
+      uuid: 1dc87606-475b-4bb1-9032-2b2695947572
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-kb6oOyAwYsATI8WQtJDim
+    type: CHART
+  CHART-eaNRUE_Q62dxaxLIF1Lz9:
+    children: []
+    id: CHART-eaNRUE_Q62dxaxLIF1Lz9
+    meta:
+      chartId: 9
+      height: 50
+      sliceName: Most Favorited Artists
+      uuid: fc760f91-c31a-4f61-a470-470170d40be6
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-GYXlLcpuBe7wbcdTHYKkQ
+    type: CHART
+  CHART-jOxzVI6XUeYBlwoW4YqOG:
+    children: []
+    id: CHART-jOxzVI6XUeYBlwoW4YqOG
+    meta:
+      chartId: 14
+      height: 50
+      sliceName: Bar Chart - Top Artists by Performances
+      uuid: 726950bd-6528-475a-974d-5a5c4f384017
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-tv9Qn9TZ7g5t6fXSeIawx
+    type: CHART
+  CHART-jQBTN0gx87nBqesFjR1aL:
+    children: []
+    id: CHART-jQBTN0gx87nBqesFjR1aL
+    meta:
+      chartId: 12
+      height: 50
+      sliceName: Pie Chart - Events Distribution by Country
+      uuid: da1444f0-83aa-49e8-97d4-dd7e015168de
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-a0y3aXiit8-fM32OFRJ0t
+    type: CHART
+  CHART-nD_T3POfX10LVOG-Bwn-3:
+    children: []
+    id: CHART-nD_T3POfX10LVOG-Bwn-3
+    meta:
+      chartId: 3
+      height: 50
+      sliceName: Number of Events per Country
+      uuid: 44c482e7-9470-419a-8adb-dc4683c897ac
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW--yQXya4JBvB-STcbh9KEx
+    type: CHART
+  CHART-qkM_1nmDdJUHguLdGlL3m:
+    children: []
+    id: CHART-qkM_1nmDdJUHguLdGlL3m
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: Most Active Artists (by event count)
+      uuid: afc322c0-9d54-4023-b17b-ba0bbf1ee7a1
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW--yQXya4JBvB-STcbh9KEx
+    type: CHART
+  CHART-sp1XjeSlxLcDJ-vDmXDfh:
+    children: []
+    id: CHART-sp1XjeSlxLcDJ-vDmXDfh
+    meta:
+      chartId: 11
+      height: 50
+      sliceName: Locations by Event Attendance
+      uuid: fbebcca2-7211-41f2-9412-f2b2b73e58a7
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-a0y3aXiit8-fM32OFRJ0t
+    type: CHART
+  CHART-st898KimLzDufioxp7Y4t:
+    children: []
+    id: CHART-st898KimLzDufioxp7Y4t
+    meta:
+      chartId: 2
+      height: 50
+      sliceName: Number of Events Over Time
+      uuid: de4e6a29-6451-4db8-b33c-0a83cfc88b19
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-M94RhHBL8sK2ktp3uO8AQ
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-kb6oOyAwYsATI8WQtJDim
+    - ROW-azmAMFLYXGv6yA8Dlbh12
+    - ROW-p3e-zfg1kbYjOxXSapMTF
+    - ROW-tv9Qn9TZ7g5t6fXSeIawx
+    - ROW-a0y3aXiit8-fM32OFRJ0t
+    - ROW-GYXlLcpuBe7wbcdTHYKkQ
+    - ROW--yQXya4JBvB-STcbh9KEx
+    - ROW-M94RhHBL8sK2ktp3uO8AQ
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Techno events analysis
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW--yQXya4JBvB-STcbh9KEx:
+    children:
+    - CHART-KabqHRnN7Kw7yxrsT4CjG
+    - CHART-nD_T3POfX10LVOG-Bwn-3
+    - CHART-qkM_1nmDdJUHguLdGlL3m
+    id: ROW--yQXya4JBvB-STcbh9KEx
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-GYXlLcpuBe7wbcdTHYKkQ:
+    children:
+    - CHART-GOaGAleioH2bopDk56atq
+    - CHART-eaNRUE_Q62dxaxLIF1Lz9
+    - CHART-LGC7D0gx_EXAW5MS6zNgr
+    id: ROW-GYXlLcpuBe7wbcdTHYKkQ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-M94RhHBL8sK2ktp3uO8AQ:
+    children:
+    - CHART-st898KimLzDufioxp7Y4t
+    - CHART-LpZxES2O1KKwXlLx-xa_x
+    id: ROW-M94RhHBL8sK2ktp3uO8AQ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-a0y3aXiit8-fM32OFRJ0t:
+    children:
+    - CHART-8v9kiP4Yi5Wp4ieOhq-R1
+    - CHART-jQBTN0gx87nBqesFjR1aL
+    - CHART-sp1XjeSlxLcDJ-vDmXDfh
+    id: ROW-a0y3aXiit8-fM32OFRJ0t
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-azmAMFLYXGv6yA8Dlbh12:
+    children:
+    - CHART-2nl-mr7BtrMDfaKcZ7l4F
+    - CHART-YHXUAzrMBSzhUebwSrxH-
+    - CHART-Njq_EKL2pw08alwnbcAyV
+    id: ROW-azmAMFLYXGv6yA8Dlbh12
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-kb6oOyAwYsATI8WQtJDim:
+    children:
+    - CHART-dlXItKlxU1V6mV3ihxqMj
+    - CHART-YzIYXy1nXtQRXmh7zO8qy
+    - CHART-OFPaEy_H5PUS_xY4pJQqL
+    id: ROW-kb6oOyAwYsATI8WQtJDim
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-p3e-zfg1kbYjOxXSapMTF:
+    children:
+    - CHART-dS8evajr-u-D_dq1WeaqY
+    - CHART-RlWkKzQ4EyimuzOGPuvIy
+    - CHART-XhhGW7PshEtq39I78Z5zs
+    id: ROW-p3e-zfg1kbYjOxXSapMTF
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-tv9Qn9TZ7g5t6fXSeIawx:
+    children:
+    - CHART-Hj55duUWnsVjBsTMzEAcl
+    - CHART-ZCM8DWlcUtzPdXlFzLfwY
+    - CHART-jOxzVI6XUeYBlwoW4YqOG
+    id: ROW-tv9Qn9TZ7g5t6fXSeIawx
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '2':
+      id: 2
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '3':
+      id: 3
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '4':
+      id: 4
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '5':
+      id: 5
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '6':
+      id: 6
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '7':
+      id: 7
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '9':
+      id: 9
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '10':
+      id: 10
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '11':
+      id: 11
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '12':
+      id: 12
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '13':
+      id: 13
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '14':
+      id: 14
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '15':
+      id: 15
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '17':
+      id: 17
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '20':
+      id: 20
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+    '21':
+      id: 21
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 22
+        - 23
+        - 24
+        - 25
+    '23':
+      id: 23
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 24
+        - 25
+    '24':
+      id: 24
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 25
+    '25':
+      id: 25
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+  map_label_colors:
+    '1': '#1FA8C9'
+    '2': '#454E7C'
+    '3': '#5AC189'
+    '4': '#FF7F44'
+    '5': '#666666'
+    High: '#1FA8C9'
+    Low: '#454E7C'
+    No Rating: '#5AC189'
+    Medium: '#FF7F44'
+    Rating 4: '#1FA8C9'
+    Rating 5: '#454E7C'
+    Rating 3: '#5AC189'
+    Rating 2: '#FF7F44'
+    <NULL>: '#666666'
+    Rating 1: '#E04355'
+    Live Database: '#EA0B8C'
+    CSV Backup: '#6C838E'
+    Stella Bossi: '#393b79'
+    Frida Darko: '#5254a3'
+    Damon Jee: '#6b6ecf'
+    Charlotte de Witte: '#9c9ede'
+    Dubfire: '#637939'
+    Amelie Lens: '#8ca252'
+    Indira Paganotto: '#b5cf6b'
+    I Hate Models: '#cedb9c'
+    FJAAK: '#8c6d31'
+    SUM(favorite_count): '#5470C6'
+    Hard Techno: '#91CC75'
+    Peak-Time Techno: '#FAC858'
+    Dark Disco: '#EE6666'
+    Deep Techno: '#73C0DE'
+    Techno: '#3BA272'
+    Psytrance Techno: '#FC8452'
+    SUM(user_count): '#1f77b4'
+    All Users: '#ff7f0e'
+    High-Tech Minimal: '#2ca02c'
+    Other Artists: '#d62728'
+    Melodic Techno: '#9467bd'
+    Dark Clubbing: '#8c564b'
+    EBM: '#e377c2'
+    Other Genres: '#7f7f7f'
+    ? ''
+    : '#bcbd22'
+    Acid Techno: '#17becf'
+    Minimal Techno: '#ff7f0e'
+    SUM(rate): '#1FA8C9'
+    SUM(avg_rating): '#1FA8C9'
+    SUM(performances): '#1FA8C9'
+    SUM(total_attendances): '#1FA8C9'
+    Germany: '#1FA8C9'
+    Netherland: '#454E7C'
+    USA: '#5AC189'
+    UK: '#FF7F44'
+    Spain: '#666666'
+    SUM(total_attendees): '#6BD3B3'
+    Berlin Techno: '#6BD3B3'
+    Tech House: '#FCC550'
+    Dark Techno: '#408184'
+    Hardcore Techno: '#66CBE2'
+    Industrial Techno: '#EE5960'
+    Dub Techno: '#484E5A'
+    SUM(event_count): '#0080F6'
+    SUM(performance_count): '#0080F6'
+    count: '#0080F6'
+  shared_label_colors:
+  - Acid Techno
+  - Amelie Lens
+  - Berlin Techno
+  - Charlotte de Witte
+  - Damon Jee
+  - Dark Disco
+  - Dark Techno
+  - Deep Techno
+  - Dub Techno
+  - Dubfire
+  - FJAAK
+  - Frida Darko
+  - Hard Techno
+  - Hardcore Techno
+  - I Hate Models
+  - Indira Paganotto
+  - Industrial Techno
+  - Melodic Techno
+  - Minimal Techno
+  - Peak-Time Techno
+  - Psytrance Techno
+  - SUM(avg_rating)
+  - SUM(favorite_count)
+  - SUM(user_count)
+  - Stella Bossi
+  - Tech House
+  - Techno
+  color_scheme: ''
+  refresh_frequency: 0
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+version: 1.0.0

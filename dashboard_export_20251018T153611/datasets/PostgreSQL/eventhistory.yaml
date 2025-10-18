@@ -1,0 +1,163 @@
+table_name: eventhistory
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: techno_events_db
+schema: public
+sql: ''
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: f89c909f-76b8-4107-a91a-99b161c85409
+metrics:
+- metric_name: growth rate
+  verbose_name: Rating Growth Rate
+  metric_type: null
+  expression: "(AVG(CASE WHEN EXTRACT(MONTH FROM e.date) = EXTRACT(MONTH FROM CURRENT_DATE)\
+    \ \r\n          THEN eh.rate ELSE NULL END) -\r\n AVG(CASE WHEN EXTRACT(MONTH\
+    \ FROM e.date) = EXTRACT(MONTH FROM CURRENT_DATE) - 1 \r\n          THEN eh.rate\
+    \ ELSE NULL END)) /\r\nAVG(CASE WHEN EXTRACT(MONTH FROM e.date) = EXTRACT(MONTH\
+    \ FROM CURRENT_DATE) - 1 \r\n         THEN eh.rate ELSE NULL END) * 100"
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: median
+  verbose_name: MEDIAN
+  metric_type: null
+  expression: PERCENTILE(0.5) WITHIN GROUP (ORDER BY rate)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+- metric_name: avg
+  verbose_name: AVG(rate)
+  metric_type: null
+  expression: AVG(rate)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: Rating Category
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: null
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: "CASE \r\n    WHEN rate = 1 THEN 'Low'\r\n    WHEN rate = 2 THEN 'Low'\r\
+    \n    WHEN rate = 3 THEN 'Medium' \r\n    WHEN rate = 4 THEN 'High'\r\n    WHEN\
+    \ rate = 5 THEN 'High'\r\n    ELSE 'No Rating'\r\nEND"
+  description: Ratings categorized as Low(1-2), Medium(3), High(4-5)
+  python_date_format: null
+  extra: {}
+- column_name: normalized_rating
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: null
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: (rate - 1) / 4.0
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: has_attended
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: BOOLEAN
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: is_interested
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: BOOLEAN
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: rate
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: SMALLINT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: event_id
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: user_id
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+- column_name: id
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: INTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
+version: 1.0.0
+database_uuid: b5ddb5c1-f17d-4c0d-bc5b-abe3213e730c

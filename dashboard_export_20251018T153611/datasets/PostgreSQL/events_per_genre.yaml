@@ -1,0 +1,56 @@
+table_name: events per genre
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: techno_events_db
+schema: public
+sql: "SELECT \r\n    g.name AS genre,\r\n    COUNT(e.id) AS event_count\r\nFROM events\
+  \ e\r\nJOIN genres g ON e.genre_id = g.id\r\nGROUP BY g.name\r\nORDER BY event_count\
+  \ DESC;\r\n\r\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: ce73dfbb-8d66-4c5d-8162-ba527738536c
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: event_count
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: genre
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: b5ddb5c1-f17d-4c0d-bc5b-abe3213e730c

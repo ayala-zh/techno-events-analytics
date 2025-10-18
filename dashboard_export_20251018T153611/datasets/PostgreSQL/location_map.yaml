@@ -1,0 +1,80 @@
+table_name: location map
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: techno_events_db
+schema: public
+sql: "SELECT \r\n    l.name AS location_name,\r\n    CASE l.name\r\n        WHEN 'Berlin'\
+  \ THEN 52.5200\r\n        WHEN 'Cologne' THEN 50.9375\r\n        WHEN 'Detroit'\
+  \ THEN 42.3314\r\n        WHEN 'Amsterdam' THEN 52.3676\r\n        WHEN 'London'\
+  \ THEN 51.5074\r\n        WHEN 'Barcelona' THEN 41.3851\r\n        WHEN 'Ibiza'\
+  \ THEN 38.9067\r\n        WHEN 'New York' THEN 40.7128\r\n        WHEN 'Istanbul'\
+  \ THEN 41.0082\r\n        WHEN 'Rotterdam' THEN 51.9244\r\n        WHEN 'Leipzig'\
+  \ THEN 51.3397\r\n        WHEN 'Hamburg' THEN 53.5511\r\n        WHEN 'Frankfurt'\
+  \ THEN 50.1109\r\n    END AS latitude,\r\n    CASE l.name\r\n        WHEN 'Berlin'\
+  \ THEN 13.4050\r\n        WHEN 'Cologne' THEN 6.9603\r\n        WHEN 'Detroit' THEN\
+  \ -83.0458\r\n        WHEN 'Amsterdam' THEN 4.9041\r\n        WHEN 'London' THEN\
+  \ -0.1278\r\n        WHEN 'Barcelona' THEN 2.1734\r\n        WHEN 'Ibiza' THEN 1.4206\r\
+  \n        WHEN 'New York' THEN -74.0060\r\n        WHEN 'Istanbul' THEN 28.9784\r\
+  \n        WHEN 'Rotterdam' THEN 4.4777\r\n        WHEN 'Leipzig' THEN 12.3731\r\n\
+  \        WHEN 'Hamburg' THEN 9.9937\r\n        WHEN 'Frankfurt' THEN 8.6821\r\n\
+  \    END AS longitude\r\nFROM locations l"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: dd322caa-5d0e-4f1a-962c-9449830ba4a0
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: latitude
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: longitude
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: location_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: b5ddb5c1-f17d-4c0d-bc5b-abe3213e730c
